@@ -16,7 +16,7 @@ const Overview = () => {
       </div>
 
       {/* overview cards */}
-      <div className="flex flex-col md:flex-row w-full items-center space-y-5 lg:space-y-0 lg:space-x-5">
+      <div className="flex flex-col md:flex-row w-full items-center space-y-5 md:space-y-0 md:space-x-5">
         {/* online orders */}
         <div className="flex w-full flex-col space-y-4 rounded-lg bg-white p-5 shadow-card">
           <h3 className="text-night-muted">Online orders</h3>
@@ -31,7 +31,7 @@ const Overview = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Overview
+export default Overview;
