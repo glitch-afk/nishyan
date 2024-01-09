@@ -12,6 +12,7 @@ export type IconName =
   | 'discounts'
   | 'download'
   | 'exclamation'
+  | 'hamburger'
   | 'home'
   | 'marketing'
   | 'messages'

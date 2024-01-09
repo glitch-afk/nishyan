@@ -4,16 +4,12 @@ const Header = () => {
   return (
     <div className="sticky top-0 z-40 flex w-full shrink-0 items-center justify-between border-b border-b-[#D9D9D9] bg-white px-8 py-3">
       {/* left part */}
-      <div className="flex items-center space-x-4">
-        <button
-          type="button"
-          className="-m-2.5 p-2.5 text-white xl:hidden"
-          // onClick={() => setSidebarOpen(true)}
-        >
+      <div className="-m-2.5 flex items-center space-x-4">
+        <button type="button" className="p-2.5 text-white xl:hidden">
           <span className="sr-only">Open sidebar</span>
-          <Icon name="products" size="md" className="text-night" />
+          <Icon name="hamburger" size="md" className="text-night" />
         </button>
-        <h3 className="text-[15px] text-night">Payments</h3>
+        <h3 className="text-[15px] text-night ">Payments</h3>
         <span className="hidden items-center space-x-[6px] text-night-muted xl:flex">
           <Icon name="questionMark" size="xs" />
           <span className="text-[12px]">How it works</span>
