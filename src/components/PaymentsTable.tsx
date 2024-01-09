@@ -143,7 +143,7 @@ const Pagination = () => {
                 'items-center justify-center rounded-[4px] px-2 py-[6px] text-sm text-night-muted md:flex',
                 {
                   'bg-[#146EB4] text-white': item === 10,
-                  'hidden md:flex': item > 11,
+                  'hidden md:flex': item != 10,
                 },
               )}
             >
