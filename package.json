@@ -10,7 +10,6 @@
     "build": "run-s build:*",
     "build:icons": "tsx ./src/utils/build-icons.ts",
     "build:server": "tsc && vite build",
-    "predev": "pnpm run build:icons --silent",
     "dev": "vite",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --cache --cache-location 'node_modules/.cache/.eslintCache' --max-warnings 0 --fix",
     "format": "prettier . --write --ignore-path .prettierignore",
