@@ -1,5 +1,5 @@
-import NavLinks from "./NavLinks";
-import { Icon } from "./ui/icons";
+import NavLinks from './NavLinks'
+import { Icon } from './ui/icons'
 
 const Sidebar = () => {
   return (
@@ -17,12 +17,12 @@ const Sidebar = () => {
               Visit store
             </a>
           </div>
-          <Icon name="chevronDown" size="md" />
+          <Icon name="chevronDown" size="md" className="h-5 w-5 shrink-0" />
         </div>
         <NavLinks />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Sidebar;
+export default Sidebar
